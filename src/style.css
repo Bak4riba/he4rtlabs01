@@ -1,0 +1,97 @@
+body{
+    background-color:#0c0c0c;
+}
+
+.content{
+    display: inline-block;
+    width: 230px;
+    height: 215px;
+    background: #fff;
+    color: #8743cc;
+    margin: 0px 50px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 14px 12px 5px 0px rgba(55, 50, 50, 0.72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content p,h4{
+    margin: 20px;
+}
+
+.content input{
+    margin: 10px;
+}
+input{
+    width: 190px;
+    width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 14px 12px 5px 0px rgba(55, 50, 50, 0.72);
+}
+.container{
+    text-align: center;
+    display: flex;
+    margin-left: 150px;
+    max-width: 1000px;
+    align-content: center;
+    border: black;
+    border-width: 330px;
+    flex-flow: row wrap;
+}
+.titles{
+    padding-bottom: 50px;
+    font-family:Arial, Helvetica, sans-serif;   
+    text-align: center;
+    color: white;
+}
+
+
+.valor{
+    outline: none;
+}
+
+.result{
+    width: 300px;
+    height: 100px;
+    background-color: blanchedalmond;
+    margin-left: 500px;
+    border-radius: 30px;
+}
+
+.result button{
+    margin-top: 30px;
+}
+
+.card{
+    max-width: 1200px;
+    width: 200px;
+    background-color:#D8BFD8;
+    margin-left: 20px;
+    border-radius: 20px;
+    flex-grow: 1;
+    height: 200px;
+    margin-top: 10px;
+
+}
+.card input{
+    padding: 10px; 
+    margin-top: 10px;
+}
+
+.res{
+    flex-grow: 1;
+}
+.btn{
+    border: 1px solid purple;
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: whitesmoke;
+    margin: 2px 0px 50px 0px;
+    border-radius: 10px;
+    box-shadow: 14px 12px 5px 0px rgba(55, 50, 50, 0.72);
+    outline: none;
+}

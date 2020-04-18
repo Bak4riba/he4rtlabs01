@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>CALC FREELA</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+
+        <div class="titles">
+            <h1>HE4RT CHALLENGES - PROJETO 1</h1>
+            <h3>Calculadora Freela</h3>
+        </div>
+        <div class="container">
+
+            <div class="card">
+                <h4>Horas trabalhas:</h4>
+                <p>Tempo gasto por dia no projeto</p><br>
+                <input class = "valor" type="number" min="0" max="24">
+            </div>
+
+            <div class="card">
+                <h4>Dias Efetivos:</h4>
+                <p>Dias utilizados para trabalhar no projeto</p>   <br> 
+                <input class = "valor" type="number" min="0" max="24">
+            </div>
+
+            <div class="card">    
+                <h4>Férias estipuladas</h4>
+                <p>Dias que tirou para poder ter férias no intervalo estipulado</p>
+                <input class = "valor" type="number" min="0" max="24">
+            </div>
+
+            <div class="card">
+                <h4>Dias da semana</h4>
+                <p>Dias da semana que foram utilizados para trabalhar</p><br>
+                <input class = "valor" type="number" min="0" max="24">
+            </div>
+
+            <div class="card res">
+                <h2>RESULTADO:</h2><h2 id = "valorFinal"></h2> 
+                <button class = "btn" onclick = "calculo()" style="border: none">Clique aqui</button>
+                
+            </div>
+        </div>
+    </body>
+</html>
